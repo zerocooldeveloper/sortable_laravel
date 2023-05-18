@@ -4,7 +4,7 @@
 
 ## Requisitos
 
-- PHP 7.4 o superior
+- PHP 8.1 o superior
 - Composer
 - Laravel 10
 - MySQL
