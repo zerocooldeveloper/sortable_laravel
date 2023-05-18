@@ -1,6 +1,6 @@
 # Laravel 10 Ejemplo Sortable Jquery UI
 
-Descripción general de tu proyecto.
+
 
 ## Requisitos
 
