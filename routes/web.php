@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\TareaController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,5 +20,7 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 Route::get('/', [TareaController::class, 'index'])->name('tareas.index');
 Route::put('/tareas/{id}', [TareaController::class, 'update'])->name('tareas.update');
+Route::get('/tareas/{task}/comentarios', [CommentController::class, 'index']);
+Route::post('/tareas/{task}/comentarios', [CommentController::class, 'store']);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
