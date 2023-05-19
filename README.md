@@ -1,10 +1,10 @@
 # Laravel 10 Ejemplo Sortable Jquery UI
 
-Descripción general de tu proyecto.
+
 
 ## Requisitos
 
-- PHP 7.4 o superior
+- PHP 8.1 o superior
 - Composer
 - Laravel 10
 - MySQL
